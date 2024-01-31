@@ -1,0 +1,903 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
+body
+{
+background-image: url("https://images.unsplash.com/photo-1454117096348-e4abbeba002c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+/* background-image: url("https://img.freepik.com/free-photo/abstract-flowing-neon-wave-background_53876-101942.jpg?w=996&t=st=1705908899~exp=1705909499~hmac=3593c9341d99fd7dbca5f4d3056a31abae1ba86ec96ecbe10b0d8e0041b1f35f"); */
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+.navbar{
+    width: 100%;
+    overflow: auto;
+    background-color: rgb(158 158 158 / 99%);
+    opacity:0.7; 
+    display: flex;
+   
+}
+.image img
+{
+    position: absolute;
+    margin-left: 45px;
+    height: 90px;
+    width: 92px;
+    margin-top: -12px;
+    z-index: 1;
+}
+.navbar ul
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:800;
+    margin-left: 53%;
+   
+    
+}
+.navbar ul li {
+    
+    display: inline-block;
+    margin:25px 0px 18px 0px ;
+
+}
+
+.navbar ul li a{
+    margin: 0px 40.2px 0px 0px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    position: relative;
+    font-weight: 800;
+    font-size: large;
+
+}
+ .navbar ul li a::after 
+{
+    content: '';
+    width: 0;
+    height: 2.5px;
+    position: absolute;
+    background-color: rgb(42, 6, 243);
+    transition-duration: 0.5s;
+    left: 0;
+    bottom: -10px;
+}
+.navbar ul li a:hover::after
+{
+width: 100%;
+}
+
+.hd1 h2
+{
+
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    font-size:70px;
+    font-family: 'poppins';
+    font-weight: 800;
+    margin: 190px 150px 0px 84px;
+    padding-top:124px;
+
+}
+
+.hd2 h1
+{
+    text-transform: capitalize;
+    /* color:rgb(255, 255, 255); */
+    color:  rgb(173, 255, 47);
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    margin:20px 150px 0px 81px;
+    padding-top: 2px;
+    font-size: 49px;
+}
+.ph p
+{
+    text-transform: capitalize;
+    color:rgb(255, 255, 255);
+    font-family: 'Libre Baskerville', serif;
+    font-weight:300;
+    margin: 22px 0px 0px 81px;
+    font-size:larger;
+    text-align: left;
+    padding-right: 355px;
+    /* display: none; */
+    
+}
+.both
+{
+    display: flex;
+}
+.resume a
+{
+    text-decoration: none;
+    font-size:larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    text-transform:capitalize;
+    margin-left: 80px;
+    color: white;
+    margin-top: 50px;
+    margin-right: -5px;
+/* /////////////////////// */
+
+    border: 3px solid greenyellow;
+    border-radius: 6px;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 0px 10px 2px greenyellow;
+}
+.resume a:hover
+{
+    color: rgb(0, 0, 0);
+    background-color: rgb(173, 255, 47);
+    /* border-radius: 25px; */
+    /* padding: 9px; */
+
+
+}
+
+.resume1 a
+{
+    text-decoration: none;
+    font-size:larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    text-transform:capitalize;
+    margin-left: 80px;
+    color: white;
+    margin-top: 50px;
+     border: 3px solid greenyellow;
+    border-radius: 5px;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 27px;
+    box-shadow: 0px 0px 10px 2px greenyellow;
+}
+.resume1 a:hover
+{
+    color: rgb(0, 0, 0);
+    background-color: rgb(173, 255, 47);
+    /* border-radius: 25px; */
+    /* padding: 9px; */
+
+
+}
+
+.box
+{
+    border-radius: 9px;
+    width: 1312px;
+    height: 750px;
+    margin-left: 98px;
+     margin-top: -84px;
+    box-shadow: 16px -5px 96px 21px rgb(42, 41, 42);
+    background-image: url("Screenshot_2024-01-22_194539-transformed.png");
+    background-size: cover;   
+    background-repeat: no-repeat; 
+}
+
+
+
+
+
+
+
+
+
+
+
+.box2
+{
+    border-radius: 9px;
+    width: 1312px;
+    height: 900px;
+    margin-left: 98px;
+     margin-top: 120px;
+    box-shadow: 16px -5px 96px 21px  rgb(131, 196, 230 );
+    
+
+    background-image: url("blue-toned-pack-paper-sheets-with-copy-space.jpg");
+    /* background-image: url("https://img.freepik.com/free-photo/lovely-flowers-concept-with-modern-notebook_23-2148007095.jpg?w=740&t=st=1705948399~exp=1705948999~hmac=0abad9dd941375d5cfa2d1f47456a0aa8e45e9722ce82a81423c53b8552c472b"); */
+    background-size: cover;   
+    background-repeat: no-repeat; 
+}
+
+/*.para p
+{
+    border: 1px green;
+    height: 400px;
+    width: 510px;
+    transform: rotateZ(-41deg);
+    padding-top: 488px;
+    padding-left: 78px;
+    font-size: larger;
+}
+idhi cross dhaniki pettanu
+*/
+.Aboutme h2
+{
+   font-size: 35px;
+   font-weight: 700;
+   padding-left: 540px;
+   padding-top: 35px; 
+   text-transform: uppercase;
+   color: blue;
+}
+.img1 img
+{
+    float: right;
+    height: 370px;
+    width: 386px;
+    margin-top: 210px;
+     border-radius: 50%;
+    opacity: 0.7;
+    
+
+}
+.para p
+{
+    padding-top: 120px;
+    padding-left: 60px;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 467px;
+
+}
+
+.para2 p
+{
+   
+     padding-left: 60px; 
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 550px;
+
+}
+
+.para3 p
+{
+   
+     padding-left: 60px; 
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 550px;
+
+}          
+.span
+{
+    color: blue;
+}
+.sd
+{
+    font-weight: 600;
+}
+.sd:hover
+{
+color: rgb(0, 46, 252);
+}
+
+
+
+
+/* skills */
+.box3
+{
+    border-radius: 9px;
+    width: 1312px;
+    height: 1000px;
+    margin-left: 98px;
+     margin-top: 120px;
+    box-shadow: 16px -5px 96px 21px  rgb(107 39 133);
+    background-image: url("Screenshot_2024-01-24_230159-transformed.png");
+    background-size: cover;   
+    background-repeat: no-repeat; 
+    /* background: linear-gradient(135deg,  rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); */
+
+
+}
+
+.heading1 h2
+{
+
+    font-size: 35px;
+   font-weight: 700;
+   padding-left: 560px;
+   padding-top: 65px; 
+   text-transform: uppercase;
+   color: antiquewhite;
+
+}
+
+.four
+{
+    display: flex;
+    margin-left: 92px;
+    margin-top: 25px;
+}
+.four1
+{
+    display: flex;
+    margin-left: 155px;
+    margin-top: -33px;
+}
+.cardpic1 
+{
+    /* border: 1px solid pink;
+    background-color: aqua;
+    height: 150px;
+    width: 120px;
+    margin-left: 50px;
+    margin-top: 150px;
+    */
+    border: 1px transparent;
+    height: 315px;
+    width: 237px;
+    margin-left: 50px;
+    margin-top: 100px;
+    text-transform:uppercase;
+    /* background-color: white; */
+}
+.cardpic1 img
+{
+    height: 161px;
+    width: 156px;
+    margin-left: 16px;
+}
+.container1 h3
+{
+    padding-left: 37px;
+    padding-top: 14px;
+    padding-bottom: 5px;
+    font: 700;
+    font-size: larger;
+}
+
+.container1 h3:hover
+{
+    color: chartreuse;
+    transform: scale(2.5);
+    margin: -8px 0px 0px 30px;
+}
+
+/* second pic */
+
+.cardpic2
+{
+    border: 1px transparent;
+    height: 315px;
+    width: 237px;
+    margin-left: 50px;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+.cardpic2 img
+{
+    height: 162px;
+    width: 169px;
+   margin-left: -5px;
+}
+.container2 h3
+{
+    padding-left: -10px;
+    padding-top:14px;
+    padding-bottom: 5px;
+    font: 700;
+    font-size: larger;
+}
+.container2 h3:hover
+{
+    color:dodgerblue;
+    transform: scale(2.5);
+    margin: 13px 0px 0px 75px;
+}
+
+/* third */
+.cardpic3
+{
+    border: 1px transparent;
+    height: 315px;
+    width: 237px;
+    margin-left: 50px;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+.cardpic3 img
+{
+    height: 162px;
+    width:169px;
+    margin-left: 26px;
+}
+
+
+.container3 h3
+{
+    /* padding-left: 124px; */
+    padding-top: 13px;
+    padding-bottom: 5px;
+    font: 700;
+    font-size: larger;
+    margin-left: 82px;
+}
+.container3 h3:hover
+{
+    transform: scale(2.5);
+    margin-left: 124px;
+    color: tomato;
+    margin-top: 11px;
+    /* text-shadow: 1px 1px 6px rgb(238, 255, 0); */
+}
+.cardpic4
+{
+    border: 1px transparent;
+    height: 315px;
+    width: 237px;
+    margin-left: 50px;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+.cardpic4 img
+{
+    height: 242px;
+    width: 304px;
+    margin-left: -67px;
+    margin-top: -38px;
+}
+
+.container4 h3
+{
+    padding-left:69px;
+    padding-top: 32px;
+    padding-bottom: 5px;
+    font-size: larger;
+    margin-top: -61px;
+
+}
+.container4 h3:hover
+{
+    transform: scale(2.5);
+    color:rgb(254, 254, 255);
+    margin-left: 27px;
+}
+
+.cardpic5
+{
+    
+    border:1px transparent;
+    height: 315px;
+    width: 237px;
+    margin-left: 55px;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+
+.container5 h3
+{
+    padding-bottom: 5px;
+    font-size: larger;
+    margin-top: 15px;
+    margin-left: 34px;
+}
+
+.cardpic5 img
+{
+   
+        height: 162px;
+        width: 169px;
+        margin-left: 6px;
+        margin-top: -14px;
+        
+}
+.container5 h3:hover
+{
+    transform: scale(2.5);
+    margin-left: 74px;
+    margin-top: 33px;
+}
+
+.cardpic6
+{
+   
+    border:1px transparent;
+    height: 315px;
+    width: 237px;
+    margin-left: 55px;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+.container6 h3
+{
+     padding-bottom: 5px;
+    font-size: larger;
+    margin-top: 6px;
+    margin-left: 74px;
+}
+
+.cardpic6 img
+{
+   
+    height: 162px;
+    width: 169px;
+    margin-left: 38px;
+    margin-top: -8px;
+        
+}
+
+.container6 h3:hover
+{
+    transform: scale(2.5);
+    margin-left: 100px;
+    margin-top: 26px;
+    color: crimson;
+}
+
+.cardpic7
+{
+    border:1px transparent;
+    height: 315px;
+    width: 237px;
+    margin-left: 55px;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+.cardpic7 img
+{
+    height: 162px;
+    width: 239px;
+    margin-left: 19px;
+    margin-top: -8px;
+        
+}
+
+.container7 h3
+{
+    padding-left: 103px;
+    padding-top: 65px;
+     padding-bottom: 5px;
+    font-size: larger;
+    margin-top: -61px;
+}
+
+.container7 h3:hover
+{
+    transform: scale(2.5);
+    margin-top: -99px;
+    color:dodgerblue;
+
+}
+
+.box4
+{
+    border-radius: 9px;
+    width: 1312px;
+    height: 850px;
+    margin-left: 98px;
+     margin-top: 120px;
+    box-shadow: 16px -5px 96px 21px  rgb(25, 26, 26);
+    /* background-image: url("Screenshot\ 2024-01-26\ 122613.png"); */
+     background-image: url("Screenshot\ 2024-01-26\ 122558.png");
+    /* background-image: url("blue-toned-pack-paper-sheets-with-copy-space.jpg"); */
+    /* background-image: url("https://img.freepik.com/free-photo/lovely-flowers-concept-with-modern-notebook_23-2148007095.jpg?w=740&t=st=1705948399~exp=1705948999~hmac=0abad9dd941375d5cfa2d1f47456a0aa8e45e9722ce82a81423c53b8552c472b"); */
+    background-size: cover;   
+    background-repeat: no-repeat; 
+}
+.certihd h2
+{
+
+    font-size: 35px;
+    font-weight: 700;
+    padding-left: 509px;
+    padding-top: 63px; 
+    text-transform: uppercase;
+    color: blue;
+  
+}
+.block
+{
+    display: flex;
+
+}
+.img12 img
+{
+    height: 264px;
+    width: 347px;
+    margin: 125px 0px 0px 58px;
+    border-radius: 15px;
+}
+.item1 p
+{
+    margin-left: 209px;
+    margin-top: 42px;
+    font-size: xx-large;
+    font-weight: 900;
+    color: transparent;
+}
+
+
+
+.item1:hover .img12 img
+{
+    box-shadow: 1px 1px 34px 6px #2be0ebbd;
+}
+
+.item1:hover .img12 p
+{
+    color: white;
+}
+
+
+
+.img13 img
+{
+    height: 264px;
+    width: 347px;
+    margin: 125px 0px 0px 78px;
+    border-radius: 15px;
+    /* margin-top: 65%; */
+}
+.item2 p
+{
+    margin-left: 172px;
+    margin-top: 42px;
+    font-size: xx-large;
+    font-weight: 900;
+    /* color: rgba(43, 42, 42, 0.77); */
+    color: transparent;
+}
+
+
+.item2:hover .img13 img
+{
+    box-shadow: 1px 1px 34px 6px #2be0ebbd;
+}
+
+.item2:hover .img13 p
+{
+    color: white;
+}
+
+
+
+.img14 img
+{
+    height: 264px;
+    width: 347px;
+    margin: 125px 0px 0px 69px;
+    border-radius: 15px;
+}
+.item3 p
+{
+    margin-left: 178px;
+    margin-top: 42px;
+    font-size: xx-large;
+    font-weight: 900;
+    color: transparent;
+}
+
+
+
+.item3:hover .img14 img
+{
+    box-shadow: 1px 1px 34px 6px #2be0ebbd;
+}
+
+.item3:hover .img14 p
+{
+    color: white;
+}
+
+.block
+{
+    padding-top: 22px;
+}
+
+/* box 4 css */
+
+
+.box5
+{
+
+    border-radius: 9px;
+    width: 1312px;
+    height: 850px;
+    margin-left: 98px;
+     margin-top: 135px;
+    box-shadow: 0px 0px 66px 35px  rgb(47, 48, 48);
+    /* background-image: url("Screenshot\ 2024-01-26\ 122613.png"); */
+     /* background-image: url("Screenshot\ 2024-01-26\ 122558.png"); */
+    /* background-image: url("blue-toned-pack-paper-sheets-with-copy-space.jpg"); */
+    background-image: url("Screenshot_2024-01-26_171348-transformed.png");
+    /* background-image: url("https://img.freepik.com/free-photo/lovely-flowers-concept-with-modern-notebook_23-2148007095.jpg?w=740&t=st=1705948399~exp=1705948999~hmac=0abad9dd941375d5cfa2d1f47456a0aa8e45e9722ce82a81423c53b8552c472b"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+
+
+
+}
+/* 
+.contactme
+{
+        font-size: 35px;
+        font-weight: 700;
+        padding-left: 480px;
+        padding-top: 53px; 
+        
+        color: rgb(251, 251, 251);
+        text-transform: capitalize;
+}
+
+.contain form
+{
+    margin-right: 449px;
+    width: 850px;
+    height: 610px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 7px 7px 50px rgba(243, 11, 11, 0.5);
+  
+    background: rgba(81,89,79,0.11);
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+    margin-top: 39px;
+}
+
+.contain h3
+{
+    margin-top: 43px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.contain form input
+{
+    color: white;
+    width: 326px;
+    height: 30px;
+    padding-left: 15px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid white;
+
+
+}
+
+.contain #firstname,
+.contain #email
+{
+text-transform: capitalize;
+}
+.contain #lastname,
+.contain #mobile
+{
+    text-transform: capitalize;
+    margin-left: 55px;
+}
+
+.contain h5
+{
+    width: 600px;
+    margin-top: 20px;
+}
+.contain #textarea
+{
+    background: none;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    padding: 10px;
+    border-bottom: 2px solid white;
+    max-width: 600px;
+    max-height: 600px;
+    min-width: 80px;
+    min-height: 80px;
+}
+.contain #textarea
+{
+    width: 100%;
+}
+.contain  #button
+{
+    background-color:white;
+    border-radius: 8px;
+    color: black;
+    font-weight: 800;
+    padding: 8px 10px 10px 10px;
+    width: 30%;
+    height: 36px;
+    
+}
+.contain #button:hover
+{
+    color: snow;
+    background-color: brown;
+    
+   
+} 
+*/
+
+/* 219721E95AD4B0EB7ED98489AD853561AB9C */
+
+
+.contctme h2
+{
+    color: white;
+    text-align: center;
+    margin: 83px 0px 0px;
+    font-size: 56px;
+    text-transform: uppercase;
+}
+.email p 
+{
+    font-size: 31px;
+    color: white;
+    margin: 94px 0px -65px 15px
+}
+#span
+
+{
+    color: blue;
+}
+.lpara p
+{
+    margin: 140px 0px 0px 0px;
+    color: white;
+    font-size: 26px;
+}
+.lpara p abbr{
+
+
+    color: #0bf9f9;
+    font-size: 20px;
+}
+.logos img
+{
+    height: 150px;
+    width: 210px;
+    margin-top: 43px;
+    
+}
+.thank
+{
+    color: white;
+    font-size: large;
+    font-family: 'poppins';
+    text-align: center;
+    margin-top: 50px;
+}
+#gmail
+{
+    margin-left:12px ;
+}
+#linkedin
+{
+    margin-left: 15px;
+}
